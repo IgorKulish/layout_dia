@@ -245,7 +245,7 @@ h1 {
       position: relative;
       width: auto;
       height: 200px;
-      border-radius: 0;
+      border-radius: 75px 0 75px 0;
       margin-top: 20px; } }
   .slider__arrow-left {
     position: absolute;
@@ -381,8 +381,7 @@ h1 {
     .expertise__img:hover {
       -webkit-transform: scale(1.2);
               transform: scale(1.2);
-      cursor: -webkit-zoom-in;
-      cursor: zoom-in; }
+      cursor: pointer; }
   .expertise__sub-title {
     font-family: "Poppins", sans-serif;
     font-style: normal;
@@ -399,6 +398,185 @@ h1 {
     line-height: 21px;
     text-align: center;
     color: #6c788b; }
+
+.service__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); }
+
+.service__info {
+  display: grid;
+  padding-top: 250px; }
+
+.service__sub-title {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 19px;
+  text-align: left;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #c0cdd7;
+  padding-bottom: 16px; }
+
+.service__title {
+  margin: 0;
+  padding-bottom: 24px;
+  font-family: "Poppins", sans-serif;
+  height: 84px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 42px;
+  color: #253757; }
+
+.service__text {
+  height: 105px;
+  width: 362px;
+  margin: 0;
+  padding-bottom: 250px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #6c788b; }
+
+.service__columns {
+  display: grid;
+  grid-template-columns: repeat(2, 264px);
+  grid-template-rows: repeat(2, 264px);
+  grid-gap: 30px;
+  padding-top: 148px; }
+
+.service__locker {
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 264px;
+  height: 264px;
+  padding-left: 32px;
+  padding-top: 32px;
+  background: #fff;
+  -webkit-box-shadow: 0 9px 18px rgba(37, 41, 49, 0.03);
+          box-shadow: 0 9px 18px rgba(37, 41, 49, 0.03);
+  border-radius: 24px; }
+
+.service__locker-title {
+  margin: 0;
+  width: 46px;
+  height: 24px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase; }
+
+.service__locker-title--1 {
+  color: #56ccf2;
+  background-color: rgba(86, 204, 242, 0.1);
+  border-radius: 23px; }
+
+.service__locker-title--2 {
+  color: #fcc91d;
+  background-color: rgba(252, 201, 29, 0.1);
+  border-radius: 23px; }
+
+.service__locker-title--3 {
+  color: #15d850;
+  background-color: rgba(21, 216, 80, 0.1);
+  border-radius: 23px; }
+
+.service__locker-title--4 {
+  color: #f36363;
+  background-color: rgba(243, 99, 99, 0.1);
+  border-radius: 23px; }
+
+.service__locker-text {
+  width: 200px;
+  height: 80px;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 19px;
+  color: #6c788b;
+  padding-top: 24px;
+  padding-bottom: 32px; }
+
+.service__locker-more {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row; }
+
+.service__locker-arrow {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s; }
+  .service__locker-arrow:hover {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    cursor: pointer; }
+
+.service__arrow-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
+
+.service__locker-arrow--1 {
+  background-color: #56ccf2; }
+
+.service__locker-arrow--2 {
+  background-color: #fcc91d; }
+
+.service__locker-arrow--3 {
+  background-color: #15d850; }
+
+.service__locker-arrow--4 {
+  background-color: #f36363; }
+
+.service__locker-link {
+  margin: auto 16px;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  color: #334563; }
+
+.service__locker-link--1:hover {
+  color: #56ccf2; }
+
+.service__locker-link--2:hover {
+  color: #fcc91d; }
+
+.service__locker-link--3:hover {
+  color: #15d850; }
+
+.service__locker-link--4:hover {
+  color: #f36363; }
+
+.aproach__clipped {
+  height: 976px;
+  margin-left: 121px;
+  border-radius: 200px 0 0 200px;
+  background: #ff9c8e; }
 
 body {
   margin: 0; }
