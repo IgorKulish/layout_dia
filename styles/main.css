@@ -83,7 +83,7 @@ h1 {
       top: 40px; }
   .header__btn {
     display: none; }
-    @media screen and (max-width: 970px) {
+    @media screen and (max-width: 730px) {
       .header__btn {
         display: block;
         position: relative;
@@ -109,7 +109,7 @@ h1 {
     display: -ms-flexbox;
     display: flex;
     list-style: none; }
-    @media screen and (max-width: 970px) {
+    @media screen and (max-width: 730px) {
       .nav__list {
         display: none;
         -webkit-box-align: left;
@@ -333,7 +333,7 @@ h1 {
   max-width: 754px;
   margin: 0 auto;
   margin-top: 148px; }
-  @media screen and (max-width: 970px) {
+  @media screen and (max-width: 730px) {
     .aboutus__info {
       margin-top: 28px; } }
 
@@ -344,7 +344,7 @@ h1 {
   font-size: 32px;
   line-height: 150%;
   color: #253757; }
-  @media screen and (max-width: 970px) {
+  @media screen and (max-width: 730px) {
     .aboutus__title {
       font-size: 24px;
       padding-left: 20px; } }
@@ -360,7 +360,7 @@ h1 {
   line-height: 150%;
   color: #6c788b;
   margin-bottom: 148px; }
-  @media screen and (max-width: 970px) {
+  @media screen and (max-width: 730px) {
     .aboutus__text {
       font-size: 16px;
       margin-bottom: 28px;
@@ -377,7 +377,7 @@ h1 {
     .expertise {
       padding-left: 20px;
       padding-right: 20px; } }
-  @media screen and (max-width: 970px) {
+  @media screen and (max-width: 730px) {
     .expertise {
       height: auto; } }
   .expertise__title {
@@ -386,12 +386,12 @@ h1 {
     font-weight: 600;
     font-size: 52px;
     line-height: 150%;
-    color: #253757;
+    color: #253757 #253757;
     text-align: center;
     padding-top: 128px;
     margin-bottom: 64px;
     margin-top: 0; }
-    @media screen and (max-width: 970px) {
+    @media screen and (max-width: 730px) {
       .expertise__title {
         padding-top: 20px;
         margin-bottom: 32px; } }
@@ -406,7 +406,7 @@ h1 {
             justify-content: space-between;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 177px; }
-    @media screen and (max-width: 970px) {
+    @media screen and (max-width: 730px) {
       .expertise__grid {
         grid-gap: 60px;
         margin: 0 20px; } }
@@ -457,7 +457,7 @@ h1 {
     .service__grid {
       padding-left: 20px;
       padding-right: 20px; } }
-  @media screen and (max-width: 970px) {
+  @media screen and (max-width: 730px) {
     .service__grid {
       display: block;
       padding-top: 20px;
@@ -472,7 +472,7 @@ h1 {
   @media screen and (max-width: 1180px) {
     .service__info {
       padding-top: 20px; } }
-  @media screen and (max-width: 970px) {
+  @media screen and (max-width: 730px) {
     .service__info {
       padding-left: 20px;
       padding-right: 20px;
@@ -529,7 +529,7 @@ h1 {
     .service__columns {
       padding-top: 20px;
       padding-bottom: 20px; } }
-  @media screen and (max-width: 930px) {
+  @media screen and (max-width: 730px) {
     .service__columns {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -699,14 +699,14 @@ h1 {
     margin-left: 121px;
     border-radius: 200px 0 0 200px;
     background: #ff9c8e; }
-    @media screen and (max-width: 970px) {
+    @media screen and (max-width: 730px) {
       .aproach__clipped {
         height: auto;
         margin-left: 0;
         border-radius: 0; } }
   .aproach__info {
     padding-top: 204px; }
-    @media screen and (max-width: 970px) {
+    @media screen and (max-width: 730px) {
       .aproach__info {
         padding-top: 20px; } }
   .aproach__sub-title {
@@ -721,7 +721,7 @@ h1 {
     color: #fff;
     letter-spacing: 3px;
     text-transform: uppercase; }
-    @media screen and (max-width: 970px) {
+    @media screen and (max-width: 730px) {
       .aproach__sub-title {
         padding-left: 20px;
         padding-right: 20px; } }
@@ -737,14 +737,14 @@ h1 {
     height: 96px;
     line-height: 150%;
     color: #fff; }
-    @media screen and (max-width: 970px) {
+    @media screen and (max-width: 730px) {
       .aproach__title {
         padding-left: 20px;
         padding-right: 20px; } }
   .aproach__ul {
     margin: 0;
     padding-left: 204px; }
-    @media screen and (max-width: 970px) {
+    @media screen and (max-width: 730px) {
       .aproach__ul {
         padding-left: 20px;
         padding-right: 20px; } }
@@ -794,7 +794,7 @@ h1 {
     bottom: 0;
     left: 793px;
     border-radius: 200px 0 0; }
-    @media screen and (max-width: 970px) {
+    @media screen and (max-width: 730px) {
       .aproach__image {
         display: none; } }
 
@@ -828,7 +828,7 @@ h1 {
     padding-bottom: 85px;
     line-height: 150%;
     color: #253757; }
-    @media screen and (max-width: 970px) {
+    @media screen and (max-width: 730px) {
       .people__title {
         padding-bottom: 10px; } }
   .people__grid {
@@ -843,7 +843,7 @@ h1 {
     @media screen and (max-width: 1180px) {
       .people__grid {
         grid-gap: 5px; } }
-    @media screen and (max-width: 970px) {
+    @media screen and (max-width: 730px) {
       .people__grid {
         display: block;
         padding-bottom: 10px; } }
@@ -864,7 +864,7 @@ h1 {
     transition: -webkit-transform 1s;
     transition: transform 1s;
     transition: transform 1s, -webkit-transform 1s; }
-    @media screen and (max-width: 970px) {
+    @media screen and (max-width: 730px) {
       .people__card {
         margin-bottom: 10px; } }
   .people__rectangle {
@@ -873,7 +873,7 @@ h1 {
     border-radius: 500px;
     -webkit-transform: rotate(-60deg);
             transform: rotate(-60deg); }
-    @media screen and (max-width: 970px) {
+    @media screen and (max-width: 730px) {
       .people__rectangle {
         display: none; } }
     .people__rectangle:nth-child(1) {
@@ -910,7 +910,7 @@ h1 {
   .people__quot {
     padding-top: 82px;
     padding-bottom: 11px; }
-    @media screen and (max-width: 970px) {
+    @media screen and (max-width: 730px) {
       .people__quot {
         padding-top: 11px; } }
   .people__text {
@@ -1106,7 +1106,7 @@ h1 {
       .footer__grid {
         grid-gap: 20px;
         padding-right: 20px; } }
-    @media screen and (max-width: 970px) {
+    @media screen and (max-width: 730px) {
       .footer__grid {
         height: auto;
         grid-template-columns: 1fr;
@@ -1124,12 +1124,12 @@ h1 {
         flex-wrap: wrap;
     width: 460px;
     height: 475px; }
-    @media screen and (max-width: 740px) {
+    @media screen and (max-width: 730px) {
       .footer__form {
         height: auto; } }
   .footer__form-rows {
     padding-top: 56px; }
-    @media screen and (max-width: 740px) {
+    @media screen and (max-width: 730px) {
       .footer__form-rows {
         padding-top: 5px; } }
   .footer__form-title {
@@ -1140,7 +1140,7 @@ h1 {
     margin: 0;
     line-height: 150%;
     color: #fff; }
-    @media screen and (max-width: 740px) {
+    @media screen and (max-width: 730px) {
       .footer__form-title {
         font-size: 18px; } }
   .footer__form-input {
@@ -1178,7 +1178,7 @@ h1 {
       opacity: 1;
       border-bottom: 2px solid #fff;
       outline: none; }
-    @media screen and (max-width: 740px) {
+    @media screen and (max-width: 730px) {
       .footer__form-input {
         margin-bottom: 5px;
         width: auto; } }
@@ -1186,7 +1186,7 @@ h1 {
     position: relative;
     height: 56px;
     top: 32px; }
-    @media screen and (max-width: 970px) {
+    @media screen and (max-width: 730px) {
       .footer__button {
         top: 10px; } }
   .footer__contacts {
@@ -1199,7 +1199,7 @@ h1 {
             flex-direction: column;
     width: 362px;
     height: 415px; }
-    @media screen and (max-width: 740px) {
+    @media screen and (max-width: 730px) {
       .footer__contacts {
         padding-top: 25px;
         height: auto; } }
@@ -1212,7 +1212,7 @@ h1 {
     padding-bottom: 56px;
     line-height: 150%;
     color: #fff; }
-    @media screen and (max-width: 970px) {
+    @media screen and (max-width: 730px) {
       .footer__contact-title {
         font-size: 20px;
         padding-bottom: 10px; } }
@@ -1228,7 +1228,7 @@ h1 {
     text-transform: uppercase;
     color: #fff;
     opacity: 0.5; }
-    @media screen and (max-width: 970px) {
+    @media screen and (max-width: 730px) {
       .footer__contact-subtitle {
         font-size: 12px; } }
   .footer__contact-text {
@@ -1240,7 +1240,7 @@ h1 {
     padding-bottom: 48px;
     line-height: 150%;
     color: #fff; }
-    @media screen and (max-width: 970px) {
+    @media screen and (max-width: 730px) {
       .footer__contact-text {
         font-size: 18px;
         padding-bottom: 10px; } }
@@ -1268,7 +1268,7 @@ h1 {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center; }
-    @media screen and (max-width: 1080px) {
+    @media screen and (max-width: 1180px) {
       .footer__menu {
         display: none; } }
   .footer__logo {
