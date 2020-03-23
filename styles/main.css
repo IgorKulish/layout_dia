@@ -235,6 +235,7 @@ h1 {
   line-height: 22px;
   text-align: center;
   color: #fff;
+  outline: none;
   -webkit-transition: 0.5s;
   transition: 0.5s; }
   .button:hover {
@@ -1266,6 +1267,7 @@ h5,
 h6,
 p,
 blockquote,
+button,
 pre,
 a,
 abbr,
@@ -1337,12 +1339,15 @@ video {
   border: 0;
   font-size: 100%;
   vertical-align: baseline;
-  scroll-behavior: smooth; }
+  scroll-behavior: smooth;
+  outline: 0; }
 
 .main {
   background: #f2f9ff; }
 
 a {
   text-decoration: none; }
+  a.nav__link:focus, a.header__link:focus, a.service__locker-link:focus {
+    outline: 4px solid #ff9c8e; }
 
 /*# sourceMappingURL=main.css.map */
